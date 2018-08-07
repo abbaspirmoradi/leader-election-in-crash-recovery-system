@@ -1,0 +1,71 @@
+﻿<Window x:Class="leader_election_in_crash_recovery_system.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Initualizing"
+        Width="525"
+        Height="350"
+        Background="LemonChiffon">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="20" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="20" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="20" />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="1"
+                    Grid.Column="1"
+                    Orientation="Vertical">
+            <StackPanel Height="100"
+                        HorizontalAlignment="Center"
+                        FlowDirection="LeftToRight"
+                        Orientation="Horizontal">
+                <RadioButton Name="communicationefficient"
+                             Background="DarkOrange"
+                             Checked="communicationefficient_Checked"
+                             Content="communication efficient"
+                             GroupName="v" />
+                <Label Width="20" />
+                <RadioButton Name="nearcommunicationefficient"
+                             Background="DarkOrange"
+                             Checked="nearcommunicationefficient_Checked"
+                             Content="near communication efficient"
+                             GroupName="v" />
+
+            </StackPanel>
+            <StackPanel Name="body"
+                        Orientation="Vertical"
+                        Visibility="Hidden">
+                <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                    <TextBlock Width="113"
+                               VerticalAlignment="Center"
+                               Text="Numbers Of Nodes :" />
+                    <TextBox Name="txtNumbersOfNode"
+                             Width="152"
+                             Height="25" />
+                </StackPanel>
+                <Label Height="40" />
+                <Button Name="CreateNetwork"
+                        Width="228"
+                        Height="50"
+                        Click="CreateNetwork_Click"
+                        IsDefault="True">
+                    <StackPanel Orientation="Horizontal">
+                        <Label Width="150"
+                               HorizontalAlignment="Center"
+                               HorizontalContentAlignment="Center"
+                               VerticalContentAlignment="Center"
+                               Padding="0">
+                            Create Network
+                        </Label>
+                        <Image Source="/leader%20election%20in%20crash-recovery%20system;component/Icons/Create.png" />
+                    </StackPanel>
+                </Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

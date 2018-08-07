@@ -1,0 +1,26 @@
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\bin\Debug\leader election in crash-recovery system.exe
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\bin\Debug\leader election in crash-recovery system.pdb
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\MainWindow.baml
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\MainWindow.g.cs
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\App.g.cs
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\leader election in crash-recovery system_MarkupCompile.cache
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\leader election in crash-recovery system.g.resources
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\leader_election_in_crash_recovery_system.Properties.Resources.resources
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\leader election in crash-recovery system.exe
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\leader election in crash-recovery system.pdb
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\DataGrid\Column.baml
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\DataGrid\Common.baml
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\DataGrid\SplitterGrid.baml
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\DataGrid\Column.g.cs
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\DataGrid\DataGridPCtrls.g.cs
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\DataGrid\SplitterGrid.g.cs
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\leader election in crash-recovery system_MarkupCompile.lref
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\DataGrid\DataGridPCtrls.baml
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\DataGrid\Generic.baml
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\App.baml
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\Network.g.cs
+c:\users\morvarid\documents\visual studio 2010\Projects\leader election in crash-recovery system\leader election in crash-recovery system\obj\x86\Debug\Network.baml

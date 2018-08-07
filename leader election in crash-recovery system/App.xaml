@@ -1,0 +1,15 @@
+﻿<Application x:Class="leader_election_in_crash_recovery_system.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="DataGrid/Common.xaml" />
+                <ResourceDictionary Source="/leader%20election%20in%20crash-recovery%20system;component/DataGrid/Generic.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>

@@ -1,0 +1,117 @@
+﻿<Window x:Class="leader_election_in_crash_recovery_system.Network"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:leader_election_in_crash_recovery_system"
+        Title="Network Creator"
+        MinWidth="200"
+        MinHeight="200"
+        MaxWidth="600"
+        MaxHeight="650"
+        Background="LightGray">
+    <Window.Resources>
+        <Style x:Key="MyGridStyle" TargetType="{x:Type local:DataGridPCtrls}">
+            <Setter Property="GridBackColor" Value="White" />
+            <Setter Property="GridLinesColor" Value="Gray" />
+            <Setter Property="CanUserResizeColumns" Value="True" />
+            <Setter Property="CanUserSortColumns" Value="True" />
+            <Setter Property="VerticalAlignment" Value="Top" />
+            <Setter Property="MaxHeight" Value="650" />
+            <Setter Property="MinHeight" Value="0" />
+            <Setter Property="FlowDirection" Value="RightToLeft" />
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="60" />
+            <RowDefinition Height="60" />
+
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="40" />
+        </Grid.ColumnDefinitions>
+        <Border Name="border0"
+                Grid.Row="1"
+                Grid.Column="1"
+                Height="40"
+                HorizontalAlignment="Center"
+                Background="White"
+                BorderBrush="Black"
+                BorderThickness="2"
+                CornerRadius="6"
+                Padding="8,10,10,10"
+                ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <TextBlock Name="TXTname" />
+        </Border>
+        <Border Name="border"
+                Grid.Row="2"
+                Grid.Column="1"
+                HorizontalAlignment="Center"
+                Background="White"
+                BorderBrush="Wheat"
+                BorderThickness="5"
+                CornerRadius="6"
+                Padding="8,10,10,10"
+                ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <local:DataGridPCtrls x:Name="TablesDataGrid" Style="{StaticResource ResourceKey=MyGridStyle}" />
+        </Border>
+
+        <StackPanel Grid.Row="4"
+                    Grid.Column="1"
+                    HorizontalAlignment="Center"
+                    FlowDirection="LeftToRight"
+                    Orientation="Horizontal">
+
+            <Button Name="Confirm"
+                    Width="100"
+                    Height="30"
+                    Background="White"
+                    Click="Confirm_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Label Width="40" Padding="0">Done!</Label>
+                    <Image Source="/leader%20election%20in%20crash-recovery%20system;component/Icons/Done.png" />
+                </StackPanel>
+            </Button>
+
+            <Label Width="100" />
+            <Button Name="Cancel"
+                    Width="100"
+                    Height="30"
+                    Background="White"
+                    Click="Cancel_Click">
+                <StackPanel Orientation="Horizontal">
+                    <Label Width="40" Padding="0">Cancel</Label>
+                    <Image Source="/leader%20election%20in%20crash-recovery%20system;component/Icons/Cancel.png" />
+                </StackPanel>
+
+            </Button>
+
+        </StackPanel>
+        <Border Name="border4"
+                Grid.Row="3"
+                Grid.Column="1"
+                Height="45"
+                HorizontalAlignment="Center"
+                Background="White"
+                BorderBrush="Black"
+                BorderThickness="2"
+                CornerRadius="6"
+                Padding="8,10,10,10"
+                ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <StackPanel Height="35"
+                        VerticalAlignment="Center"
+                        Orientation="Horizontal">
+                <TextBlock Width="140" VerticalAlignment="Center">NetWork Runnig Time(s) :</TextBlock>
+                <TextBox Name="txtNetTime"
+                         Width="100"
+                         Height="20" />
+            </StackPanel>
+        </Border>
+
+    </Grid>
+</Window>
